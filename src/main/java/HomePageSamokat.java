@@ -30,9 +30,6 @@ class HomePageSamokat {
     // верхняя кнопка "Заказать"
     private By topOrderButton = By.cssSelector(".Header_Nav__AGCXC .Button_Button__ra12g");
 
-    // нижняя кнопка "Заказать"
-    private By bottomOrderButton = By.cssSelector(".Home_FinishButton__1_cWm .Button_Button__ra12g");
-
     public HomePageSamokat(WebDriver driver) {
         this.driver = driver;
     }
